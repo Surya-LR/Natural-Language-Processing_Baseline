@@ -5,4 +5,8 @@ and RandomisedSearchCV, The Linear SVC was chosen as the SVM model to tune. Line
 was preferred over SVC with the linear kernel as it scales better to large numbers of samples
 (Scikitlearn 2021)
 
-![image](https://github.com/Surya-LR/NaturalLanguageProcessing_SVM_Baseline/assets/77691667/03f2246f-065d-4253-91d8-9f58ae79f18d)
+Data used was The Stanford Natural Language Inference (SNLI) Corpus from https://nlp.stanford.edu/projects/snli/ 
+## The SVM Model Implmentation 
+
+![image](https://github.com/Surya-LR/NaturalLanguageProcessing_SVM_Baseline/assets/77691667/a39f8ddf-4d31-4428-ada5-39a9fc0b58f7)
+
