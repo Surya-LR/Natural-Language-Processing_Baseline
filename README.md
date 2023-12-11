@@ -10,3 +10,6 @@ Data used was The Stanford Natural Language Inference (SNLI) Corpus from https:/
 
 ![image](https://github.com/Surya-LR/NaturalLanguageProcessing_SVM_Baseline/assets/77691667/a39f8ddf-4d31-4428-ada5-39a9fc0b58f7)
 
+## Bert based models
+
+The Albert and Legal-Bert cannot be shared as it is was developed and paid for by the Company
