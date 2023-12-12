@@ -1,5 +1,10 @@
 # Natural Language Processing sentence pair comparison and classification 
-This is part of a larger project that cannot be shared due to propreitary reasons. Here, a SVM baseline is established for the classification of a sentence-pair dataset to check for similarities and contradictions in documents. 
+This is part of a larger project that cannot be shared due to propreitary reasons. Here, a SVM baseline is established for the classification of a sentence-pair dataset to check for similarities and contradictions in documents. The code for the Streamlit based webapp and the pipeline for training and validation, along with the SVM model is added to this repository.
+
+## Bert based models
+
+The Albert and Legal-Bert cannot be shared as it is was developed and paid for by the Company. For this, Pytorch and Hugging Face transformer library has been used for the implementation. The
+code was modified to use with the Google Colab Pro GPUs to save time. The cleaned dataset was mounted from the author’s google drive and access needs to be granted for it to be used. Each trained epoch is saved as a checkpoint to avoid loss of data and the code was modified to enable this and to load the chosen epoch for testing as well. 
 
 ## Dataset
 Data used was The Stanford Natural Language Inference (SNLI) Corpus from https://nlp.stanford.edu/projects/snli/.The corpus is a collection of
@@ -38,9 +43,5 @@ The tuning of the LinearSVC hyperparameter ’C’ was done can be seen that a �
 used in the final implementation of the LinearSVC code.
 
 
-## Bert based models
-
-The Albert and Legal-Bert cannot be shared as it is was developed and paid for by the Company. For this, Pytorch and Hugging Face transformer library has been used for the implementation. The
-code was modified to use with the Google Colab Pro GPUs to save time. The cleaned dataset was mounted from the author’s google drive and access needs to be granted for it to be used. Each trained epoch is saved as a checkpoint to avoid loss of data and the code was modified to enable this and to load the chosen epoch for testing as well.
 
 
