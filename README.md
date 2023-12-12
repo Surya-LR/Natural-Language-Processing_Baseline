@@ -16,7 +16,7 @@ dropping unwanted columns. This function is shown in Figure below:
 
 
 It is then passed to a pre-processing function. This function cleans the string, converts it to lower-case, and applies
-lemmatization. As the algorithms cannot work with the raw text directly, the text must be converted into vectors of numbers using a text vectorizer. TF-IDF(Term frequency-inverse document frequency),
+lemmatization. As the algorithms cannot work with the raw text directly, the text must be converted into vectors of numbers using a text vectorizer. TF-IDF(Term frequency-inverse document frequency),
 is used in this project to transform the raw text into a usable vector.TF-IDF is a combination of Term Frequency (TF) and Inverse Document Frequency (IDF). These concepts together indicate
 how common and frequent the word in the document is. When passed through this vectorizer the text is converted to a matrix of TF-IDF features. The features from the sentences are combined with the metadata in the feature union section
 with the help of a pipeline and sent to the SVM model. 
